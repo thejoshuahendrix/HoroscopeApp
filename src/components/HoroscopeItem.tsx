@@ -5,7 +5,7 @@ const Card = styled.div`
 text-align: left;
 width: 70vw;
 margin-right: 30%;
-margin-left: 20%;
+margin-left: 5%;
 padding: 2rem;
 `
 const Item = styled.div`
