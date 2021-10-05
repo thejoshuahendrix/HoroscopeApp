@@ -21,7 +21,7 @@ const HoroscropeList = ({sign, day}: PropTypes) => {
             .catch(err => {
                 console.error(err);
             });
-    }, [data])
+    }, [sign,day])
     return (
         <div>
             <HoroscopeItem 
